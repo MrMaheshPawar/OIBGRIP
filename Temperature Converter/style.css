@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(background.jpg);
+	background-size: cover;
+
+	background-position: center;
+}
+
+
+
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 250px;
+    
+}
+.display h1{
+    font-size: 35px;
+    color: #000;
+}
+.temp_calculator {
+    width: 480px;
+    margin: 50px auto;
+    background-color: #01ff78;
+    opacity: .9;
+}
+form {
+    padding: 15px;
+}
+h2.title {
+    background: #00c059;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+}
+.calculator_input {
+    float: left;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    padding: 8px;
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+.result_area input {
+    width: 82%;
+}
+.calculator_value label {
+    width: 36%;
+    float: left;
+}
+.calculator_value input {
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button#convert {
+    float: right;
+}
+button.cal-btn {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    background:#003fab;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+select {
+    padding: 5px;
+}
